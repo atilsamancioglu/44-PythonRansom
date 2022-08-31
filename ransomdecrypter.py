@@ -13,7 +13,7 @@ for file in os.listdir():
 
 print(files)
 
-with open("generatedkey.key","wb") as generatedkey:
+with open("generatedkey.key","rb") as generatedkey:
 	secret_key = generatedkey.read()
 
 for file in files:
